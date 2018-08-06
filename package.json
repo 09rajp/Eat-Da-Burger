@@ -1,26 +1,25 @@
 {
   "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "restaurant application",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/09rajp/Eat-Da-Burger.git"
+    "url": "git+https://github.com/purvam98/Eat-Da-Burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/09rajp/Eat-Da-Burger/issues"
+    "url": "https://github.com/purvam98/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/09rajp/Eat-Da-Burger#readme",
+  "homepage": "https://github.com/purvam98/Eat-Da-Burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
-    "handlebars": "^4.0.11",
+    "express-handlebars": "^3.0.0",
     "mysql": "^2.15.0"
   }
 }
